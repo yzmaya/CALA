@@ -1,4 +1,4 @@
- body {
+body {
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
       color: #818181;
@@ -18,7 +18,7 @@
       margin-bottom: 30px;
   }  
   .jumbotron {
-      background-color: #1F6764;
+      background-color: #f4511e;
       color: #fff;
       padding: 100px 25px;
       font-family: Montserrat, sans-serif;
@@ -30,11 +30,11 @@
       background-color: #f6f6f6;
   }
   .logo-small {
-      color: #92B35A;
+      color: #f4511e;
       font-size: 50px;
   }
   .logo {
-      color: #92B35A;
+      color: #AB7345;
       font-size: 200px;
   }
   .thumbnail {
@@ -102,12 +102,12 @@
   }
   .panel-footer .btn {
       margin: 15px 0;
-      background-color: #f4511e;
+      background-color: #AB7345;
       color: #fff;
   }
   .navbar {
       margin-bottom: 0;
-      background-color: #161616;
+      background-color: #762213;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -130,7 +130,7 @@
   footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
-      color: #C94D65;
+      color: #f4511e;
   }
   .slideanim {visibility:hidden;}
   .slide {
