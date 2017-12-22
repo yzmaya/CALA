@@ -12,7 +12,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
   <link rel="stylesheet" type="text/css" href="CSS/img.css">
-  <link rel="stylesheet" type="text/css" href="CSS/banner.css">
+  <link rel="stylesheet" type="text/css" href="CSS/bannerImagen.css">
+
+ <!-- <link rel="stylesheet" type="text/css" href="CSS/banner.css"> -->
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -54,12 +56,51 @@
       its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
       formats to work correctly.
     -->
-
+<!-- ************ OCUPALO SI QUIERES BANNER DE VIDEO PRINCIPAL *******
  <section id="banner" data-video="images/banner">
         <div class="inner">
           <h1>C A L A</h1>
           <p><strong>Excelencia en Jamoneras</strong></p>
         </div>
+      </section>
+-->
+
+<!-- ******************* ESTO ES EL JUMBOTRON DE BOOTSTRAP Q VENIA POR DEFECTO ********
+<div class="jumbotron text-center" style="background-image: url(images/cort.jpg)";>
+  <h1>C A L A</h1> 
+  <p>Excelencia en Jamoneras</p> 
+</div>
+-->
+
+<section class="banner full">
+        <article>
+          <img src="images/cortando.png" alt="" />
+          <div class="inner">
+            <header>
+              <p>Excelencia en Jamoneras</p>
+              <h2>C A L A</h2>
+            </header>
+          </div>
+        </article>
+        <article>
+          <img src="images/cort.jpg" alt="" />
+          <div class="inner">
+            <header>
+               <p>Excelencia en Jamoneras</p>
+              <h2>C A L A</h2>
+            </header>
+          </div>
+        </article>
+        <article>
+          <img src="images/original.jpg"  alt="" />
+          <div class="inner">
+            <header>
+               <p>Excelencia en Jamoneras</p>
+              <h2>C A L A</h2>
+            </header>
+          </div>
+        </article>
+   
       </section>
 
 
@@ -80,7 +121,7 @@
     </div>
   </div>
 </div>
-
+<!-- ******************** SEGUNDA PARTE **************** GRIS
 <div class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4">
@@ -92,6 +133,7 @@
     </div>
   </div>
 </div>
+-->
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center">
@@ -103,7 +145,7 @@
       <article class="item">
               <header>
                 <a href="catalogos.html"><img src="images/pic01.jpg" alt="" /></a>
-                <h3>BÁSICO</h3>
+                <h3>ARAGÓN</h3>
               </header>
       </article>
     </div>
@@ -111,8 +153,8 @@
       
       <article class="item">
               <header>
-                <a href="#"><img src="images/pic02.jpg" alt="" /></a>
-                <h3>GIRATORIOS</h3>
+                <a href="#"><img src="images/pic02.png" alt="" /></a>
+                <h3>GRAPA</h3>
               </header>
       </article>
     </div>
@@ -121,12 +163,14 @@
        <article class="item">
               <header>
                 <a href="#"><img src="images/pic03.jpg" alt="" /></a>
-                <h3>BASCULANTES</h3>
+                <h3>PREMIUM</h3>
               </header>
      </article>
     </div>
   </div>
   <br><br>
+
+  <!-- *** aqui emppieza la seegunda sección de imagenes ****** 
   <div class="row slideanim">
     <div class="col-sm-4">
     
@@ -156,6 +200,7 @@
      </article>
     </div>
   </div>
+-->
 </div>
 
 
@@ -334,7 +379,7 @@ marker.setMap(map);
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>Mi empresa Copyright 2017</p>
+  <p>C A L A 2017</p>
 </footer>
 
       <script src="JS/default.js"></script>
@@ -343,6 +388,6 @@ marker.setMap(map);
       <script src="JS/jquery.scrollex.min.js"></script>
       <script src="JS/skel.min.js"></script>
       <script src="JS/util.js"></script>
-      <script src="JS/banner.js"></script>
+      <script src="JS/main.js"></script>
 </body>
 </html>
